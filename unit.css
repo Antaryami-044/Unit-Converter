@@ -16,7 +16,7 @@ body {
 .main {
     height:500px;
     width: 500px;
-    background-color: aquamarine;
+    background-color: #071952;
     border: 1px solid black;
     border-radius: 5%;
     color: aliceblue;
@@ -44,7 +44,7 @@ body {
 .head {
     font-size:50px;
     font-weight:bold;
-    color:black;
+    color:#F9E2AF;
     text-align:center;
     margin-bottom: 50px;
 }
@@ -71,11 +71,11 @@ body {
   height:40px;
   width:354px;
   background-color: blueviolet;
-  color: bisque;
+  /* color: bisque; */
   border-radius: 5px;
   text-align:center;
   padding-top: 10px;
-  color:rgb(212, 222, 209);
+  color:#F9E2AF;
   font-weight:1200px;
   font-size:25px;
   border-radius: 10px;
@@ -103,7 +103,7 @@ button {
 }
 
 .main:hover {
-    border: 5px solid #2D336B;
+    border: 5px solid #F9E2AF;
 }
 
 .top:hover {
