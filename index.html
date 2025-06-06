@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta varchar="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Unit Converter</title>
+        <link rel="stylesheet" href="unit.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="top">Example</div>
+            <div class="convert">
+                <div class="head">Unit Converter</div>
+
+                <lable for="num">
+                    <input id="num" vlaue="num" name="num" type="number" min=0 placeholder="Enter your value">
+                </lable>
+
+                <label for="choose">
+                    <select id="choose">
+                        <option value="" selected disabled>Select</option>
+                        <option value="meter to kilometer">meter to kilometer</option>
+                        <option value="kilometer to meter">kilometer to meter</option>
+                        <option value="hour to minutes">hour to minutes</option>
+                        <option value="minutes to seconds">minutes to seconds</option>
+                        <option value="seconds to hour">seconds to hour</option>
+                    </select>
+                </label>
+
+                <button id="convert" onclick="result()">convert</button>
+                
+                <div class="output">Result</div>
+            </div>
+            <div class="footer">Thank you for Visit our website...<i class="fa-solid fa-heart"></i></div>
+        </div>
+        <script src="unit.js"></script>
+    </body>
+</html>
